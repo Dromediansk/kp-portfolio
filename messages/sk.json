@@ -21,34 +21,36 @@
   "services": {
     "title": "Naše služby",
     "subtitle": "Online španielčina pre začiatočníkov aj mierne pokročilých — individuálne alebo pre pár",
-    "modernWebCraft": {
-      "title": "Španielčina pre začiatočníkov",
-      "description": "Začneme od základov jasne a v tempe, ktoré vám vyhovuje. Zameriame sa na veci, ktoré využijete hneď.",
-      "features": [
-        "Základy: výslovnosť, slovná zásoba a gramatika",
-        "Praktické frázy do bežných situácií",
-        "Materiály a pracovné listy v cene",
-        "Domáce úlohy so spätnou väzbou (voliteľné)"
-      ]
-    },
-    "mobileMastery": {
-      "title": "Španielčina pre mierne pokročilých",
-      "description": "Získajte istotu v komunikácii vďaka konverzácii, praktickým témam a pravidelnému progresu.",
-      "features": [
-        "Konverzácia a užitočné dialógy",
-        "Praktické témy (cestovanie, jedlo, bežný život)",
-        "Podpora počúvania a čítania",
-        "Príprava na cestovanie"
-      ]
-    },
-    "technicalConsulting": {
-      "title": "Individuálne alebo pre pár",
-      "description": "Učte sa 1:1 alebo vo dvojici. Hodiny prispôsobím vašim cieľom, tempu aj rozvrhu — online z pohodlia domova.",
-      "features": [
-        "Individuálny prístup a flexibilné tempo",
-        "Hodiny pre pár s praktickými témami",
-        "Plán učenia podľa vašich cieľov"
-      ]
+    "items": {
+      "lessons": {
+        "title": "Online hodiny (začiatočník & mierne pokročilý)",
+        "description": "Online hodiny pre úplných začiatočníkov aj mierne pokročilých — individuálne alebo vo dvojici, vždy podľa vašich cieľov.",
+        "features": [
+          "Úroveň: začiatočník aj mierne pokročilý",
+          "Individuálne alebo pre pár",
+          "Flexibilné tempo a praktické témy",
+          "Online z pohodlia domova"
+        ]
+      },
+      "workbooks": {
+        "title": "Materiály a pracovné zošity na mieru",
+        "description": "Pripravím vám materiály podľa vašej úrovne a záujmov, aby ste si vedeli precvičovať aj medzi hodinami a rýchlejšie napredovať.",
+        "features": [
+          "Pracovné listy podľa úrovne",
+          "Užitočná slovná zásoba a dialógy",
+          "Praktické témy (cestovanie, jedlo, bežný život)",
+          "Jasná štruktúra, ktorú viete opakovať"
+        ]
+      },
+      "practice": {
+        "title": "Prax s detailným vysvetlením",
+        "description": "Budeme veľa rozprávať už od začiatku a všetko vám detailne vysvetlím tak, aby ste španielčinu vedeli naozaj používať.",
+        "features": [
+          "Konverzácia na každej hodine",
+          "Detailné vysvetlenie (gramatika aj výslovnosť)",
+          "Opravy so spätnou väzbou v príjemnej atmosfére"
+        ]
+      }
     },
     "cta": {
       "title": "Chcete začať so španielčinou?",
@@ -72,7 +74,7 @@
     },
     "development": {
       "step": "03",
-      "title": "Praxe",
+      "title": "Prax",
       "description": "Konverzácia, slovná zásoba a praktické témy — krok za krokom."
     },
     "delivery": {

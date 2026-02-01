@@ -19,36 +19,38 @@
     "scrollToServicesAriaLabel": "Scroll to services section"
   },
   "services": {
-    "title": "Our Services",
+    "title": "Lesson options",
     "subtitle": "Online Spanish for beginners and intermediate — individually or as a couple",
-    "modernWebCraft": {
-      "title": "Spanish for Beginners",
-      "description": "Start from the basics with a clear structure and supportive pace. We focus on essentials you can use right away.",
-      "features": [
-        "Foundations: pronunciation, vocabulary, and grammar",
-        "Practical phrases for everyday situations",
-        "Materials and worksheets included",
-        "Homework with feedback (optional)"
-      ]
-    },
-    "mobileMastery": {
-      "title": "Spanish for Intermediate",
-      "description": "Build confidence with conversation practice, real-life topics, and steady progress.",
-      "features": [
-        "Speaking practice and useful dialogues",
-        "Practical topics (travel, food, daily life)",
-        "Listening and reading support",
-        "Preparation for travel situations"
-      ]
-    },
-    "technicalConsulting": {
-      "title": "Individual or Couple Lessons",
-      "description": "Learn 1:1 or as a couple. Lessons adapt to your pace, goals, and schedule — online from the comfort of your home.",
-      "features": [
-        "Individual approach and flexible pacing",
-        "Shared couple lessons with practical themes",
-        "Personal plan based on your goals"
-      ]
+    "items": {
+      "lessons": {
+        "title": "Online lessons (beginner & intermediate)",
+        "description": "Learn online as a complete beginner or intermediate learner — 1:1 or in a couple, always tailored to your goals.",
+        "features": [
+          "Beginner & intermediate levels",
+          "Individual or couple lessons",
+          "Flexible pace and practical topics",
+          "Online from the comfort of home"
+        ]
+      },
+      "workbooks": {
+        "title": "Tailor-made workbooks",
+        "description": "You’ll get custom materials designed for your level and interests, so you can practise between lessons and see progress faster.",
+        "features": [
+          "Worksheets matched to your level",
+          "Useful vocabulary and dialogues",
+          "Practical topics (travel, food, everyday life)",
+          "Clear structure you can reuse"
+        ]
+      },
+      "practice": {
+        "title": "Practice with clear explanations",
+        "description": "We focus on speaking from the start, with detailed explanations that help you understand and use Spanish confidently.",
+        "features": [
+          "Speaking practice in every lesson",
+          "Detailed explanations (grammar & pronunciation)",
+          "Corrections with friendly feedback"
+        ]
+      }
     },
     "cta": {
       "title": "Ready to start learning Spanish?",
