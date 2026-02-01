@@ -6,7 +6,6 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import NavigationLink from "./NavigationLink";
 import ThemeToggle from "./ThemeToggle";
-import LanguageSwitcher from "./LanguageSwitcher";
 import { useScrollDirection } from "@/lib/hooks";
 
 type NavigationLink = {
@@ -71,14 +70,14 @@ const Navigation = () => {
               ))}
             </div>
             <div className="flex items-center space-x-4">
-              <LanguageSwitcher />
+              {/* <LanguageSwitcher /> */}
               <ThemeToggle />
             </div>
           </div>
 
           {/* Mobile Menu Button and Theme Toggle */}
           <div className="md:hidden flex items-center space-x-2">
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
             <ThemeToggle />
             <button
               onClick={toggleMenu}
