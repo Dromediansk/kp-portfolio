@@ -13,7 +13,7 @@ const TechStack = ({ isVisible = true }: TechStackProps) => {
       name: "React.js",
       description: t("technologies.reactjs"),
       iconPath: "/icons/ReactJS.svg",
-      bgColor: "bg-blue-100 dark:bg-blue-900/30",
+      bgColor: "bg-primary-100 dark:bg-primary-900/30",
       keepOriginalInDark: true,
     },
     {
@@ -27,7 +27,7 @@ const TechStack = ({ isVisible = true }: TechStackProps) => {
       name: "React Native",
       description: t("technologies.reactNative"),
       iconPath: "/icons/ReactNative.svg",
-      bgColor: "bg-cyan-100 dark:bg-cyan-900/30",
+      bgColor: "bg-primary-200 dark:bg-primary-900/30",
       keepOriginalInDark: true,
     },
     {
@@ -41,7 +41,7 @@ const TechStack = ({ isVisible = true }: TechStackProps) => {
       name: "TypeScript",
       description: t("technologies.typescript"),
       iconPath: "/icons/Typescript.svg",
-      bgColor: "bg-blue-100 dark:bg-blue-900/30",
+      bgColor: "bg-primary-100 dark:bg-primary-900/30",
       keepOriginalInDark: true,
     },
     {
@@ -62,7 +62,7 @@ const TechStack = ({ isVisible = true }: TechStackProps) => {
       name: "PostgreSQL",
       description: t("technologies.postgresql"),
       iconPath: "/icons/Postgres.svg",
-      bgColor: "bg-indigo-100 dark:bg-indigo-900/30",
+      bgColor: "bg-primary-200 dark:bg-primary-900/30",
       keepOriginalInDark: true,
     },
   ];

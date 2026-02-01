@@ -39,7 +39,7 @@ const generateEmailTemplate = (data: ContactFormData): string => {
           box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .header { 
-          background: linear-gradient(135deg, #0d6efd 0%, #05214d 100%); 
+          background: linear-gradient(135deg, #e5a777 0%, #9c5e2f 100%); 
           color: white; 
           padding: 30px; 
           text-align: center;
@@ -48,9 +48,9 @@ const generateEmailTemplate = (data: ContactFormData): string => {
         .field { 
           margin-bottom: 20px; 
           padding: 16px; 
-          background: #e6f0ff; 
+          background: #fff5ee; 
           border-radius: 8px; 
-          border-left: 4px solid #0d6efd;
+          border-left: 4px solid #e5a777;
         }
         .field-label { 
           font-weight: 600; 

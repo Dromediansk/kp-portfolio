@@ -68,7 +68,7 @@ export default function PrivacyPolicyPage() {
                   ),
                 )}
               </ul>
-              <p className="mt-3 text-sm bg-blue-50 dark:bg-blue-900/20 p-3 rounded-lg">
+              <p className="mt-3 text-sm bg-primary-50 dark:bg-primary-900/20 p-3 rounded-lg">
                 <strong>
                   {t(
                     "sections.informationCollection.consentInfo.importantLabel",

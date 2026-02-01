@@ -82,10 +82,10 @@ module.exports = {
           "50%": { transform: "translateY(-10px)" },
         },
         glow: {
-          "0%": { boxShadow: "0 0 5px rgba(13, 110, 253, 0.5)" },
+          "0%": { boxShadow: "0 0 5px rgba(255, 221, 191, 0.55)" },
           "100%": {
             boxShadow:
-              "0 0 20px rgba(13, 110, 253, 0.8), 0 0 30px rgba(13, 110, 253, 0.6)",
+              "0 0 20px rgba(255, 221, 191, 0.85), 0 0 30px rgba(255, 221, 191, 0.6)",
           },
         },
         typewriter: {
@@ -142,11 +142,11 @@ module.exports = {
         pulseGlow: {
           "0%": {
             transform: "scale(1)",
-            boxShadow: "0 0 10px rgba(13, 110, 253, 0.8)",
+            boxShadow: "0 0 10px rgba(255, 221, 191, 0.8)",
           },
           "100%": {
             transform: "scale(1.05)",
-            boxShadow: "0 0 20px rgba(13, 110, 253, 0.6)",
+            boxShadow: "0 0 20px rgba(255, 221, 191, 0.6)",
           },
         },
         floatParticle: {

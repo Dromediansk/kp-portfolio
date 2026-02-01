@@ -100,7 +100,7 @@ const CookieConsent = () => {
             {t("preferences")}{" "}
             <Link
               href="/privacy"
-              className="text-blue-400 hover:text-blue-300 underline"
+              className="text-primary-400 hover:text-primary-300 underline"
             >
               {t("privacyPolicy")}
             </Link>

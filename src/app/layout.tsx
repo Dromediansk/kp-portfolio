@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className="antialiased">
         <ThemeProvider>
           <main>
-            <div className="min-h-screen bg-linear-to-br from-gray-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-blue-900 text-gray-900 dark:text-white">
+            <div className="min-h-screen bg-linear-to-br from-gray-50 via-white to-primary-50 dark:from-gray-900 dark:via-gray-800 dark:to-primary-950 text-gray-900 dark:text-white">
               <div className="pt-20">{children}</div>
             </div>
           </main>

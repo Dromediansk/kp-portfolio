@@ -3,17 +3,17 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-primary-50: #e6f0ff;
-  --color-primary-100: #cce0ff;
-  --color-primary-200: #99c2ff;
-  --color-primary-300: #66a3ff;
-  --color-primary-400: #3385ff;
-  --color-primary-500: #0d6efd;
-  --color-primary-600: #0b5bd1;
-  --color-primary-700: #0947a5;
-  --color-primary-800: #073479;
-  --color-primary-900: #05214d;
-  --color-primary-950: #031327;
+  --color-primary-50: #fffaf7;
+  --color-primary-100: #fff5ee;
+  --color-primary-200: #fff0e5;
+  --color-primary-300: #ffe9da;
+  --color-primary-400: #ffe2cd;
+  --color-primary-500: #ffddbf;
+  --color-primary-600: #f6c39d;
+  --color-primary-700: #e5a777;
+  --color-primary-800: #c9824e;
+  --color-primary-900: #9c5e2f;
+  --color-primary-950: #5b3318;
 }
 
 html {
@@ -23,7 +23,9 @@ html {
 body {
   background: white;
   color: #0f172a;
-  transition: background-color 0.3s, color 0.3s;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -74,11 +76,12 @@ body {
 @keyframes logoGlow {
   0%,
   100% {
-    text-shadow: 0 0 5px rgba(99, 102, 241, 0.3);
+    text-shadow: 0 0 5px rgba(255, 221, 191, 0.35);
   }
   50% {
-    text-shadow: 0 0 20px rgba(99, 102, 241, 0.6),
-      0 0 30px rgba(99, 102, 241, 0.4);
+    text-shadow:
+      0 0 20px rgba(255, 221, 191, 0.6),
+      0 0 30px rgba(255, 221, 191, 0.35);
   }
 }
 
@@ -236,10 +239,10 @@ html {
 @keyframes pulseGlow {
   0%,
   100% {
-    box-shadow: 0 0 0 0 rgba(13, 110, 253, 0.3);
+    box-shadow: 0 0 0 0 rgba(255, 221, 191, 0.35);
   }
   50% {
-    box-shadow: 0 0 30px 10px rgba(13, 110, 253, 0.1);
+    box-shadow: 0 0 30px 10px rgba(255, 221, 191, 0.12);
   }
 }
 
@@ -323,7 +326,9 @@ html {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.3);
   transform: translate(-50%, -50%);
-  transition: width 0.6s, height 0.6s;
+  transition:
+    width 0.6s,
+    height 0.6s;
 }
 
 .btn-ripple:active::before {
@@ -346,7 +351,7 @@ html {
   background: linear-gradient(
     45deg,
     transparent,
-    rgba(13, 110, 253, 0.1),
+    rgba(255, 221, 191, 0.18),
     transparent
   );
   opacity: 0;

@@ -1,16 +1,14 @@
 import React from "react";
 import { cn } from "@/lib/utils";
 
-export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary";
   size?: "sm" | "md" | "lg";
   children: React.ReactNode;
   asChild?: boolean;
 }
 
-export interface ButtonLinkProps
-  extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+export interface ButtonLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
   variant?: "primary" | "secondary";
   size?: "sm" | "md" | "lg";
   children: React.ReactNode;
@@ -19,17 +17,17 @@ export interface ButtonLinkProps
 
 const buttonVariants = {
   primary: `
-    bg-gradient-to-br from-blue-600 to-blue-700 
+    bg-gradient-to-br from-primary-700 to-primary-800 
     text-white 
-    hover:from-blue-700 hover:to-blue-800 
-    hover:shadow-lg hover:shadow-blue-600/25 
+    hover:from-primary-800 hover:to-primary-900 
+    hover:shadow-lg hover:shadow-primary-700/25 
     hover:-translate-y-0.5
-    focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2
+    focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-offset-2
     active:transform active:scale-95
   `,
   secondary: `
     bg-slate-100 text-slate-900 border-2 border-transparent
-    hover:bg-slate-200 hover:border-blue-600 hover:-translate-y-0.5
+    hover:bg-slate-200 hover:border-primary-700 hover:-translate-y-0.5
     focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2
     active:transform active:scale-95
     dark:bg-slate-700 dark:text-white dark:hover:bg-slate-600
@@ -39,7 +37,7 @@ const buttonVariants = {
 // Variant classes to use when the button is disabled (no hover effects)
 const buttonVariantsNoHover: Record<string, string> = {
   primary: `
-    bg-gradient-to-br from-blue-600 to-blue-700
+    bg-gradient-to-br from-primary-700 to-primary-800
     text-white
     focus:outline-none
   `,
@@ -75,7 +73,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       disabled,
       ...props
     },
-    ref
+    ref,
   ) => {
     const variantClasses = disabled
       ? buttonVariantsNoHover[variant]
@@ -91,7 +89,7 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         {children}
       </button>
     );
-  }
+  },
 );
 
 Button.displayName = "Button";
@@ -99,7 +97,7 @@ Button.displayName = "Button";
 export const ButtonLink = React.forwardRef<HTMLAnchorElement, ButtonLinkProps>(
   (
     { className, variant = "primary", size = "md", children, ...props },
-    ref
+    ref,
   ) => {
     return (
       <a
@@ -108,7 +106,7 @@ export const ButtonLink = React.forwardRef<HTMLAnchorElement, ButtonLinkProps>(
           buttonVariants[variant],
           buttonSizes[size],
           "no-underline",
-          className
+          className,
         )}
         ref={ref}
         {...props}
@@ -116,7 +114,7 @@ export const ButtonLink = React.forwardRef<HTMLAnchorElement, ButtonLinkProps>(
         {children}
       </a>
     );
-  }
+  },
 );
 
 ButtonLink.displayName = "ButtonLink";

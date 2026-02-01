@@ -89,8 +89,8 @@ const AboutSection = () => {
                   : "opacity-0 translate-x-8"
               }`}
             >
-              <div className="w-80 h-80 mx-auto bg-linear-to-br from-blue-400 to-purple-500 rounded-3xl flex items-center justify-center relative overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-500 shadow-2xl">
-                <div className="absolute inset-0 bg-linear-to-r from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="w-80 h-80 mx-auto bg-linear-to-br from-primary-500 to-primary-900 rounded-3xl flex items-center justify-center relative overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-500 shadow-2xl">
+                <div className="absolute inset-0 bg-linear-to-r from-primary-400 to-primary-800 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="text-white text-7xl font-bold z-10 group-hover:animate-pulse">
                   H
                 </div>

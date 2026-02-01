@@ -14,7 +14,7 @@ export const BackgroundElements = memo(() => {
         style={{ animationDelay: "4s" }}
       ></div>
       <div
-        className="absolute bottom-20 right-10 w-24 h-24 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 rounded-full floating-particle opacity-20"
+        className="absolute bottom-20 right-10 w-24 h-24 bg-gradient-to-br from-primary-100 to-primary-300 dark:from-primary-950 dark:to-primary-800 rounded-full floating-particle opacity-20"
         style={{ animationDelay: "1s" }}
       ></div>
     </div>
