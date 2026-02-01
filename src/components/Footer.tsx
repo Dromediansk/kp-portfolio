@@ -20,7 +20,7 @@ const Footer = () => {
             >
               <Image
                 src="/logo_pure.svg"
-                alt="Bitloom Logo"
+                alt="Hola Espanol Logo"
                 width={160}
                 height={48}
                 className="h-20 w-auto"
@@ -43,14 +43,6 @@ const Footer = () => {
                   className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                 >
                   {tNav("services")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/projects"
-                  className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
-                >
-                  {tNav("projects")}
                 </Link>
               </li>
               <li>
@@ -90,10 +82,10 @@ const Footer = () => {
                 <span className="font-medium">{t("contactInfo.email")}</span>
                 <br />
                 <a
-                  href="mailto:info@bitloom.sk"
+                  href="mailto:katka.plackova3@gmail.com"
                   className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                 >
-                  info@bitloom.sk
+                  katka.plackova3@gmail.com
                 </a>
               </li>
               <li className="text-gray-600 dark:text-gray-400">

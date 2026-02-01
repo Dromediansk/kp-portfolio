@@ -7,8 +7,5 @@ export { default as LanguageSwitcher } from "./LanguageSwitcher";
 export { default as Footer } from "./Footer";
 export { default as SocialLinks } from "./SocialLinks";
 
-// Project components
-export * from "./projects";
-
 // Contact components
 export * from "./contact";

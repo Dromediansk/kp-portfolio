@@ -10,155 +10,110 @@
     "toggleMenu": "Prepnúť mobilné menu"
   },
   "hero": {
-    "companyName": "Bitloom",
-    "tagline": "Digitálne riešenia z odvážnych nápadov",
-    "description": "Vývoj webu, mobilných appiek a poradenstvo prispôsobené vašim konkrétnym potrebám.",
-    "exploreServices": "Preskúmať služby",
-    "contactUs": "Napíšte nám",
+    "companyName": "Español",
+    "greeting": "Hola",
+    "description": "Od prvého Hola k plynulej španielčine jednoducho a s istotou",
+    "exploreServices": "Pozrieť možnosti",
+    "contactUs": "Rezervovať hodinu",
     "scrollToExplore": "Posúvajte pre preskúmanie",
     "scrollToServicesAriaLabel": "Posunúť sa na sekciu služieb"
   },
   "services": {
     "title": "Naše služby",
-    "subtitle": "Komplexné riešenia vývoja softvéru navrhnuté na zrealizovanie vášho nápadu",
+    "subtitle": "Online španielčina pre začiatočníkov aj mierne pokročilých — individuálne alebo pre pár",
     "modernWebCraft": {
-      "title": "Moderné webové inžinierstvo",
-      "description": "Vytvárame výnimočné webové zážitky prostredníctvom umenia full-stack vývoja. Od responzívnych webových stránok po komplexné webové aplikácie, každá digitálna stopa je postavená s presnosťou, výkonom a používateľskou skúsenosťou.",
+      "title": "Španielčina pre začiatočníkov",
+      "description": "Začneme od základov jasne a v tempe, ktoré vám vyhovuje. Zameriame sa na veci, ktoré využijete hneď.",
       "features": [
-        "Full-stack webové aplikácie",
-        "Responzívny dizajn webových stránok",
-        "Moderné frameworky a architektúra",
-        "Optimalizácia výkonu"
+        "Základy: výslovnosť, slovná zásoba a gramatika",
+        "Praktické frázy do bežných situácií",
+        "Materiály a pracovné listy v cene",
+        "Domáce úlohy so spätnou väzbou (voliteľné)"
       ]
     },
     "mobileMastery": {
-      "title": "Mobilné majstrovstvo",
-      "description": "Od konceptu po nasadenie vytvárame mobilné aplikácie, ktoré sú profesionálne na každej platforme. Naša multiplatformová expertíza zabezpečuje, že vaši používatelia získajú bezproblémovú skúsenosť, či už sú na iOS alebo Androide.",
+      "title": "Španielčina pre mierne pokročilých",
+      "description": "Získajte istotu v komunikácii vďaka konverzácii, praktickým témam a pravidelnému progresu.",
       "features": [
-        "Multiplatformová dokonalosť",
-        "Natívny výkon a pocit",
-        "Optimalizácia pre app store",
-        "Dizajn zameraný na používateľa"
+        "Konverzácia a užitočné dialógy",
+        "Praktické témy (cestovanie, jedlo, bežný život)",
+        "Podpora počúvania a čítania",
+        "Príprava na cestovanie"
       ]
     },
     "technicalConsulting": {
-      "title": "Technické poradenstvo",
-      "description": "Poskytujeme podporu pre komplexné technické výzvy so strategickými poradenskými službami. Pomáhame podnikom robiť informované technologické rozhodnutia a budovať škálovateľné riešenia, ktoré sú v súlade s vašimi cieľmi.",
+      "title": "Individuálne alebo pre pár",
+      "description": "Učte sa 1:1 alebo vo dvojici. Hodiny prispôsobím vašim cieľom, tempu aj rozvrhu — online z pohodlia domova.",
       "features": [
-        "Hodnotenie technológií",
-        "Plánovanie architektúry",
-        "Mentoring tímov"
+        "Individuálny prístup a flexibilné tempo",
+        "Hodiny pre pár s praktickými témami",
+        "Plán učenia podľa vašich cieľov"
       ]
     },
     "cta": {
-      "title": "Pripravený začať váš projekt?",
-      "description": "Prediskutujme, ako môžeme premeniť vašu myšlienku na realitu.",
-      "contactUs": "Napíšte nám",
-      "viewOurWork": "Pozrieť našu prácu"
+      "title": "Chcete začať so španielčinou?",
+      "description": "Napíšte mi krátko vašu úroveň a cieľ — dohodneme si prvú online hodinu.",
+      "contactUs": "Rezervovať hodinu",
+      "viewOurWork": "O hodinách"
     }
   },
   "process": {
-    "title": "Náš proces",
-    "subtitle": "Overená metodológia, ktorá zabezpečuje úspešné dodanie projektu",
+    "title": "Ako budeme postupovať",
+    "subtitle": "Jednoduché kroky, prispôsobené vám",
     "discovery": {
       "step": "01",
-      "title": "Objavenie",
-      "description": "Pochopenie vašich obchodných cieľov, požiadaviek a rozsahu projektu."
+      "title": "Zhodnotenie",
+      "description": "Prejdeme vašu úroveň, ciele a čo chcete dosiahnuť."
     },
     "analysis": {
       "step": "02",
-      "title": "Analýza",
-      "description": "Architektonické a dizajnové plány pre optimálne riešenia."
+      "title": "Individuálny plán",
+      "description": "Dostanete jasný plán, materiály a témy presne pre vás."
     },
     "development": {
       "step": "03",
-      "title": "Vývoj",
-      "description": "Budovanie riešení s častou komunikáciou a spoluprácou."
+      "title": "Praxe",
+      "description": "Konverzácia, slovná zásoba a praktické témy — krok za krokom."
     },
     "delivery": {
       "step": "04",
-      "title": "Dodanie",
-      "description": "Testovanie, nasadenie a priebežná podpora pre váš úspech."
+      "title": "Progres",
+      "description": "Spätná väzba, budovanie istoty a príprava na cestovanie podľa potreby."
     }
   },
-  "projects": {
-    "title": "Vybrané projekty",
-    "subtitle": "Prehliadka moderného vývoja a produktového myslenia.",
-    "actions": {
-      "viewProject": "Zobraziť projekt",
-      "sourceCode": "Zdrojový kód"
-    },
-    "cta": {
-      "title": "Pripravení začať váš projekt?",
-      "description": "Prediskutujme, ako môžeme premeniť vašu myšlienku na realitu.",
-      "startProject": "Začať váš projekt"
-    },
-    "items": [
-      {
-        "title": "AI Crew analýza obsahu obrázkov",
-        "description": "Použitie CrewAI na koordináciu tímu AI agentov, ktorí analyzujú obrázok, navrhujú vylepšenia dizajnu a generujú prioritizované používateľské príbehy. Poháňané GPT-4o a VisionTool, systém automatizuje workflow od vizuálnej analýzy po praktické produktové poznatky, s výsledkami uloženými v Markdown správe."
-      },
-      {
-        "title": "Mindtaker - Denník myšlienok poháňaný AI",
-        "description": "React Native mobilná aplikácia, ktorá pomáha používateľom zachytiť a organizovať denné myšlienky s poznatkami poháňanými AI. Obsahuje organizáciu založenú na kalendári, bezpečnú autentifikáciu a inteligentné rozširovanie a sumarizáciu myšlienok."
-      },
-      {
-        "title": "Next Notes - Denné úlohy",
-        "description": "Objavte silu denných afirmácií a sebareflexie s intuitívnou aplikáciou na zapisovanie poznámok. Zachyťte momenty inšpirácie, motivácie a osobného rozvoja, aby ste sa stali najlepšou verziou seba."
-      },
-      {
-        "title": "Portfólio s 3D grafikou",
-        "description": "Prezentácia práce s ohromujúcim portfóliom s 3D grafikou a animáciami. Postavené s React Three Fiber a modernými webovými technológiami na poskytnutie pohlcujúcej používateľskej skúsenosti."
-      }
-    ]
-  },
   "about": {
-    "title": "O spoločnosti Bitloom",
-    "subtitle": "Založené s víziou poskytovať výnimočné softvérové riešenia, ktoré poháňajú rast podnikania",
+    "title": "O mne",
+    "subtitle": "Online hodiny španielčiny s praktickým a podporným prístupom",
     "ourStory": {
-      "title": "Náš príbeh",
-      "description1": "Bitloom založil Miroslav s jasnou misiou: premostiť priepasť medzi inovatívnymi technológiami a zmysluplnými obchodnými výsledkami. Veríme, že skvelý softvér nie je len o kóde – je o porozumení vašmu podnikaniu, vašim používateľom a vašim cieľom.",
-      "description2": "Náš produktovo orientovaný prístup zabezpečuje, že každé riešenie, ktoré budujeme, je navrhnuté na škálovanie, výkon a poskytovanie merateľnej hodnoty vašej organizácii. Prijímame rastovo orientované hodnoty, ktoré riadia všetko, čo robíme."
+      "title": "Môj prístup",
+      "description1": "Učím španielčinu online s individuálnym prístupom — v tempe, ktoré vám vyhovuje, s jasným vysvetlením a veľa praxe.",
+      "description2": "Dostanete materiály a pracovné listy, praktické témy a prípravu na reálne situácie (aj na cestovanie)."
     },
     "coreValues": {
-      "title": "Naše základné hodnoty",
+      "title": "Čo môžete očakávať",
       "transparentCommunication": {
-        "title": "Transparentná komunikácia",
-        "description": "Jasný, úprimný dialóg pri každom kroku"
+        "title": "Individuálny prístup",
+        "description": "Hodiny prispôsobené vašim cieľom a úrovni"
       },
       "remoteFirstCooperation": {
-        "title": "Remote-first spolupráca",
-        "description": "Bezproblémová spolupráca naprieč hranicami"
+        "title": "Z pohodlia domova",
+        "description": "Online hodiny odkiaľkoľvek"
       },
       "openMindedness": {
-        "title": "Otvorenosť mysle",
-        "description": "Prijímanie nových nápadov a prístupov"
+        "title": "Praktické témy",
+        "description": "Užitočná španielčina do bežného života a na cesty"
       }
     },
     "founder": {
-      "title": "Spoznajte nášho zakladateľa",
-      "name": "Miroslav Pillár - Zakladateľ a digitálny inžinier",
-      "location": "Sídli v Košiciach, Slovensko",
-      "description1": "Ako profesionálny vývojár a samouk s 6 rokmi praktických skúseností, Miroslav prináša jedinečný pohľad na vývoj softvéru. Jeho cesta demonštruje silu odhodlania, kontinuálneho učenia a praktického riešenia problémov pri zvládaní moderných technológií.",
-      "description2": "Počas svojej kariéry sa Miroslav zameral na projekty v sektoroch zdravotníctva a financií - priemyselných odvetviach, kde presnosť, bezpečnosť a spoľahlivosť nie sú len príjemnými funkciami - sú absolútne nevyhnutné. Táto skúsenosť formovala jeho prístup k budovaniu softvéru, na ktorý sa podniky môžu skutočne spoľahnúť.",
-      "description3": "Tieto špecializované znalosti v kombinácii s expertízou vo full-stack vývoji a moderných technológiách zabezpečujú, že každý Bitloom projekt má prospech z technickej kvality aj z reálneho obchodného porozumenia."
-    },
-    "techStack": {
-      "title": "Naša technická expertíza",
-      "description": "Špecializujeme sa na moderné technológie, ktoré nám umožňujú budovať škálovateľné, výkonné a udržateľné riešenia pre vaše obchodné potreby.",
-      "technologies": {
-        "reactjs": "Moderný frontend vývoj s komponentovou architektúrou",
-        "nextjs": "Full-stack React framework pre produkčne pripravené aplikácie",
-        "typescript": "Typovo bezpečný vývoj pre robustné, udržateľné aplikácie",
-        "nodejs": "Server-side JavaScript pre škálovateľné backend riešenia",
-        "python": "Všestranné programovanie pre webové aplikácie, API a automatizáciu",
-        "postgresql": "Výkonný, open-source relačný databázový systém",
-        "reactNative": "Multiplatformový vývoj mobilných aplikácií",
-        "expo": "Zjednodušený vývoj a nasadenie React Native platforma"
-      }
+      "title": "Vaša lektorka",
+      "name": "Katarína Pillárová",
+      "location": "Online hodiny",
+      "description1": "Zameriavam sa na budovanie istoty — budete rozprávať od začiatku, v príjemnej atmosfére a s jasným vedením.",
+      "description2": "Hodiny sú praktické a prispôsobené: užitočná slovná zásoba, dialógy a témy podľa vašich záujmov.",
+      "description3": "Dostanete materiály a pracovné listy a vieme sa pripraviť aj na konkrétne situácie, napríklad na cestovanie."
     },
     "whyChoose": {
-      "title": "Prečo si vybrať Bitloom?",
+      "title": "Prečo si vybrať Hola Espanol?",
       "productMindset": {
         "title": "Produktové myslenie",
         "description": "Myslíme ako vlastníci produktov, zabezpečujúc, že každá funkcia pridáva skutočnú hodnotu vášmu podnikaniu."
@@ -172,7 +127,7 @@
         "description": "Sme investovaní do vášho úspechu a poskytujeme priebežnú podporu pri škálovaní."
       }
     },
-    "cta": "Začať váš projekt"
+    "cta": "Rezervovať hodinu"
   },
   "references": {
     "title": "Klientske recenzie a referencie",
@@ -204,20 +159,20 @@
     }
   },
   "contact": {
-    "title": "Začnime váš projekt",
-    "subtitle": "Ste pripravený premeniť vaše nápady na kvalitné digitálne riešenia? Poďme to prediskutovať.",
+    "title": "Kontakt",
+    "subtitle": "Napíšte mi vašu úroveň a cieľ — dohodneme si prvú online hodinu.",
     "info": {
-      "title": "Začnime spoločne budovať",
-      "description": "Máte odvážnu víziu? Alebo nadišiel čas vylepšiť, ako sa ukazujete v online svete? Bitloom je tu, aby vám pomohol premeniť vaše nápady na elegantné, škálovateľné riešenia. Poďme spoločne vybudovať niečo úžasné."
+      "title": "Začnime so španielčinou",
+      "description": "Hodiny prebiehajú online z pohodlia domova. Poskytujem materiály a pracovné listy, zameriavam sa na praktické témy a môžem vás pripraviť aj na cestovanie."
     },
     "methods": {
       "email": {
         "title": "E-mail",
-        "value": "info@bitloom.sk"
+        "value": "katka.plackova3@gmail.com"
       },
       "location": {
         "title": "Lokalita",
-        "value": "Sídli v Košiciach, Slovensko"
+        "value": "Online"
       },
       "responseTime": {
         "title": "Čas odpovede",
@@ -225,29 +180,29 @@
       }
     },
     "social": {
-      "title": "Spojte sa so zakladateľom Bitloom"
+      "title": "Spojme sa"
     },
     "form": {
       "title": "Kontaktujte nás",
       "yourName": "Vaše meno",
       "email": "E-mail",
-      "company": "Spoločnosť",
+      "company": "Úroveň (voliteľné)",
       "textMessage": "Text správy",
       "required": "*",
       "placeholders": {
         "name": "Vaše celé meno",
-        "email": "vas.email@spolocnost.sk",
-        "company": "Vaša spoločnosť",
-        "message": "Opíšte vašu požiadavku, technický problém alebo detaily projektu"
+        "email": "vas.email@example.com",
+        "company": "Začiatočník / Mierne pokročilý",
+        "message": "Napíšte, čo chcete trénovať (a kedy vám vyhovuje)"
       },
       "sendMessage": "Odoslať správu",
       "sending": "Odosiela sa...",
-      "success": "Ďakujeme za vašu správu! Ozveme sa vám do 24 hodín.",
-      "error": "Prepáčte, pri odosielaní vašej otázky došlo k chybe. Prosím skúste to znovu alebo nás kontaktujte priamo na info@bitloom.sk."
+      "success": "Ďakujem za vašu správu! Ozvem sa vám do 24 hodín.",
+      "error": "Prepáčte, pri odosielaní správy došlo k chybe. Skúste to prosím znovu alebo mi napíšte priamo na katka.plackova3@gmail.com."
     }
   },
   "footer": {
-    "description": "Produktovo orientovaná spoločnosť softvérového inžinierstva špecializujúca sa na vývoj webových aplikácií, mobilných aplikácií a technické poradenstvo. Sídli v Košiciach, Slovensko, podporuje klientov globálne.",
+    "description": "Hola Espanol je osobné portfólio online španielčiny od Kataríny Pillárovej. Individuálne hodiny z pohodlia domova, materiály a pracovné listy, praktické témy a príprava na cestovanie.",
     "quickLinks": {
       "title": "Rýchle odkazy",
       "services": "Služby",
@@ -260,21 +215,20 @@
       "title": "Kontakt",
       "email": "E-mail:",
       "location": "Lokalita:",
-      "locationValue": "Košice, Slovensko"
+      "locationValue": "Online"
     },
-    "copyright": "© {year} Bitloom s.r.o. Všetky práva vyhradené."
+    "copyright": "© {year} Hola Espanol. Všetky práva vyhradené."
   },
   "metadata": {
-    "title": "Bitloom - Vytváranie digitálnych riešení",
-    "description": "Produktovo orientovaná spoločnosť softvérového inžinierstva špecializujúca sa na vývoj webových aplikácií, mobilných aplikácií a technické poradenstvo. Sídli v Košiciach, Slovensko, podporuje klientov globálne. Zakladateľom je Miroslav Pillár.",
+    "title": "Hola Espanol — Online hodiny španielčiny",
+    "description": "Osobné online hodiny španielčiny od Kataríny Pillárovej. Pre začiatočníkov aj mierne pokročilých, individuálne alebo pre pár, praktické témy, materiály a pracovné listy, príprava na cestovanie.",
     "keywords": [
-      "vývoj webu",
-      "frontend vývoj",
-      "full-stack vývoj",
-      "technické poradenstvo",
-      "React.js",
-      "TypeScript",
-      "React Native"
+      "online hodiny španielčiny",
+      "španielčina pre začiatočníkov",
+      "španielčina pre mierne pokročilých",
+      "individuálne hodiny španielčiny",
+      "španielčina pre pár",
+      "španielčina na cestovanie"
     ]
   },
   "privacy": {
@@ -286,8 +240,8 @@
       "introduction": {
         "title": "Úvod",
         "content": {
-          "paragraph1": "Vitajte v Bitloom s.r.o. (\"my\", \"naša\" alebo \"nás\"). Sme spoločnosť softvérového inžinierstva so sídlom v Košiciach na Slovensku, špecializujúca sa na webový vývoj, mobilný vývoj a technické poradenstvo. Zaviazali sme sa chrániť vaše osobné údaje a vaše právo na súkromie.",
-          "paragraph2": "Tieto zásady ochrany osobných údajov vysvetľujú, ako zhromažďujeme, používame, zverejňujeme a chránime vaše informácie, keď navštívite naše webové stránky bitloom.sk a blog.bitloom.sk, používate naše služby alebo nás kontaktujete pre obchodné dotazy."
+          "paragraph1": "Vitajte na Hola Espanol (\"my\", \"naše\" alebo \"nás\"). Ide o osobnú webovú stránku s ponukou online hodín španielčiny od Kataríny Pillárovej. Zaviazali sme sa chrániť vaše osobné údaje a vaše právo na súkromie.",
+          "paragraph2": "Tieto zásady ochrany osobných údajov vysvetľujú, ako zhromažďujeme, používame, zverejňujeme a chránime vaše informácie, keď navštívite túto webovú stránku alebo nás kontaktujete ohľadom hodín."
         }
       },
       "informationCollection": {
@@ -385,7 +339,7 @@
           "Právo namietať: Namietať proti spracovaniu na základe oprávnených záujmov",
           "Právo odvolať súhlas: Odvolať súhlas pre marketingovú komunikáciu"
         ],
-        "contact": "Na uplatnenie týchto práv nás kontaktujte na info@bitloom.sk. Odpovieme do 30 dní od prijatia vašej žiadosti."
+        "contact": "Na uplatnenie týchto práv nás kontaktujte na katka.plackova3@gmail.com. Odpovieme do 30 dní od prijatia vašej žiadosti."
       },
       "cookieManagement": {
         "title": "Správa cookies a súhlas",
@@ -443,22 +397,21 @@
         "intro": "Ak máte otázky ohľadom týchto zásad ochrany osobných údajov alebo našich postupov pri nakládaní s údajmi, kontaktujte nás:",
         "legal": {
           "title": "Právne informácie",
-          "company": "Bitloom s.r.o.",
+          "company": "Katarína Pillárová",
           "businessId": "IČO: 56397631",
           "taxId": "DIČ: 2122301907",
           "vatId": "IČ DPH: SK2122301907"
         },
         "details": {
           "title": "Kontaktné údaje",
-          "email": "E-mail: info@bitloom.sk",
+          "email": "E-mail: katka.plackova3@gmail.com",
           "location": "Miesto: Košice, Slovensko",
-          "website": "Webová stránka: bitloom.sk"
+          "website": "Webová stránka"
         },
         "gdprNote": "Pre žiadosti týkajúce sa GDPR alebo obavy týkajúce sa ochrany údajov, použite v predmete e-mailu \"Žiadosť o súkromie\" na zabezpečenie promptného vybavenia."
       },
       "compliance": {
-        "statement": "Tieto zásady ochrany osobných údajov sú navrhnuté tak, aby boli v súlade s EU všeobecným nariadením o ochrane údajov (GDPR), slovenskými zákonmi o ochrane údajov a medzinárodnými najlepšími postupmi ochrany súkromia. Zaviazali sme sa k transparentnej komunikácii, spolupráci na diaľku a otvorenosti vo všetkých našich postupoch pri nakládaní s údajmi.",
-        "registration": "Registrácia spoločnosti: Bitloom s.r.o. je spoločnosť s ručením obmedzeným registrovaná na Slovensku s IČO 56397631, DIČ 2122301907 a IČ DPH SK2122301907."
+        "statement": "Tieto zásady ochrany osobných údajov sú navrhnuté tak, aby boli v súlade s EU všeobecným nariadením o ochrane údajov (GDPR), slovenskými zákonmi o ochrane údajov a medzinárodnými najlepšími postupmi ochrany súkromia."
       }
     }
   },

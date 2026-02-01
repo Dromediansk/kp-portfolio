@@ -9,38 +9,23 @@ import ThemeToggle from "./ThemeToggle";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useScrollDirection } from "@/lib/hooks";
 
+type NavigationLink = {
+  href: string;
+  label: string;
+  isExternal?: boolean;
+  icon?: React.ReactNode;
+};
+
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { isVisible } = useScrollDirection();
   const t = useTranslations("navigation");
 
-  const navigationLinks = [
+  const navigationLinks: NavigationLink[] = [
     { href: "/", label: t("home") },
     { href: "/services", label: t("services") },
-    { href: "/projects", label: t("projects") },
     { href: "/about", label: t("about") },
-    { href: "/references", label: t("references") },
     { href: "/contact", label: t("contact") },
-    {
-      href: "https://blog.bitloom.sk",
-      label: t("blog"),
-      isExternal: true,
-      icon: (
-        <svg
-          className="w-3 h-3"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-          />
-        </svg>
-      ),
-    },
   ];
 
   const toggleMenu = () => {
@@ -62,7 +47,7 @@ const Navigation = () => {
           >
             <Image
               src="/logo_pure.svg"
-              alt="Bitloom Logo"
+              alt="Hola Espanol Logo"
               width={200}
               height={60}
               className="h-14 w-auto"

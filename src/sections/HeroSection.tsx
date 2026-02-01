@@ -35,6 +35,15 @@ const HeroSection = () => {
 
       <div className="container-max section-padding text-center relative z-10">
         <div className="max-w-4xl mx-auto">
+          {/* Greeting */}
+          <h2
+            className={`text-start text-2xl md:text-3xl lg:text-4xl text-gray-700 dark:text-gray-300 mb-3 transition-all duration-1000 delay-500 ${
+              hasIntersected ? "animate-fade-in-up" : "opacity-0 translate-y-4"
+            }`}
+          >
+            <span className="inline-block">{t("greeting")}</span>
+          </h2>
+
           {/* Company name with gradient text effect */}
           <h1
             className={`text-5xl md:text-7xl lg:text-8xl font-bold text-transparent bg-linear-to-r from-primary-200 via-primary-600 to-primary-950 dark:from-primary-700 dark:via-primary-500 dark:to-primary-100 bg-clip-text mb-6 transition-all duration-1000 delay-200 ${
@@ -43,15 +52,6 @@ const HeroSection = () => {
           >
             {t("companyName")}
           </h1>
-
-          {/* Company mission */}
-          <h2
-            className={`text-2xl md:text-3xl lg:text-4xl text-gray-700 dark:text-gray-300 mb-8 transition-all duration-1000 delay-500 ${
-              hasIntersected ? "animate-fade-in-up" : "opacity-0 translate-y-4"
-            }`}
-          >
-            <span className="inline-block">{t("tagline")}</span>
-          </h2>
 
           {/* Company description */}
           <p

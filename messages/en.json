@@ -10,75 +10,75 @@
     "toggleMenu": "Toggle mobile menu"
   },
   "hero": {
-    "companyName": "Bitloom",
-    "tagline": "Digital Solutions from Bold Ideas",
-    "description": "Web, mobile apps and consulting tailored to your specific needs.",
-    "exploreServices": "Explore Services",
-    "contactUs": "Let's Talk",
+    "companyName": "Hola Espanol",
+    "tagline": "Online Spanish lessons that fit your life",
+    "description": "Personalized online Spanish for beginners and intermediate learners — practical topics, clear materials, and friendly guidance.",
+    "exploreServices": "See Lesson Options",
+    "contactUs": "Book a Lesson",
     "scrollToExplore": "Scroll to explore",
     "scrollToServicesAriaLabel": "Scroll to services section"
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Comprehensive software development solutions designed to realize your idea",
+    "subtitle": "Online Spanish for beginners and intermediate — individually or as a couple",
     "modernWebCraft": {
-      "title": "Modern Web Craft",
-      "description": "We craft exceptional web experiences through the art of full-stack development. From responsive websites to complex web applications, every digital trace is built with precision, performance, and user experience.",
+      "title": "Spanish for Beginners",
+      "description": "Start from the basics with a clear structure and supportive pace. We focus on essentials you can use right away.",
       "features": [
-        "Full-stack web applications",
-        "Responsive website design",
-        "Modern frameworks & architecture",
-        "Performance optimization"
+        "Foundations: pronunciation, vocabulary, and grammar",
+        "Practical phrases for everyday situations",
+        "Materials and worksheets included",
+        "Homework with feedback (optional)"
       ]
     },
     "mobileMastery": {
-      "title": "Mobile Mastery",
-      "description": "From concept to deployment, we craft mobile applications that are professional on every platform. Our cross-platform expertise ensures your users get a seamless experience, whether they're on iOS or Android.",
+      "title": "Spanish for Intermediate",
+      "description": "Build confidence with conversation practice, real-life topics, and steady progress.",
       "features": [
-        "Cross-platform excellence",
-        "Native performance & feel",
-        "App store optimization",
-        "User-centric design"
+        "Speaking practice and useful dialogues",
+        "Practical topics (travel, food, daily life)",
+        "Listening and reading support",
+        "Preparation for travel situations"
       ]
     },
     "technicalConsulting": {
-      "title": "Technical Consulting",
-      "description": "We provide support for complex technical challenges with strategic consulting services. We help businesses make informed technology decisions and build scalable solutions that align with your goals.",
+      "title": "Individual or Couple Lessons",
+      "description": "Learn 1:1 or as a couple. Lessons adapt to your pace, goals, and schedule — online from the comfort of your home.",
       "features": [
-        "Technology assessment",
-        "Architecture planning",
-        "Team mentoring"
+        "Individual approach and flexible pacing",
+        "Shared couple lessons with practical themes",
+        "Personal plan based on your goals"
       ]
     },
     "cta": {
-      "title": "Ready to Start Your Project?",
-      "description": "Let's discuss how we can help bring your idea to life.",
-      "contactUs": "Let's Talk",
-      "viewOurWork": "View Our Work"
+      "title": "Ready to start learning Spanish?",
+      "description": "Send a short message about your level and goals — we’ll set up your first online lesson.",
+      "contactUs": "Book a Lesson",
+      "viewOurWork": "About the lessons"
     }
   },
   "process": {
-    "title": "Our Process",
-    "subtitle": "A proven methodology that ensures successful project delivery",
+    "title": "How we’ll work together",
+    "subtitle": "Simple structure, tailored to you",
     "discovery": {
       "step": "01",
-      "title": "Discovery",
-      "description": "Understanding your business goals, requirements, and project scope."
+      "title": "Assessment",
+      "description": "We’ll discuss your level, goals, and what you want to achieve."
     },
     "analysis": {
       "step": "02",
-      "title": "Analysis",
-      "description": "Architectural and design plans for optimal solutions."
+      "title": "Personal plan",
+      "description": "A clear, practical plan with materials and topics that fit you."
     },
     "development": {
       "step": "03",
-      "title": "Development",
-      "description": "Building solutions with frequent communication and collaboration."
+      "title": "Practice",
+      "description": "Speaking, useful vocabulary, and real-life topics — step by step."
     },
     "delivery": {
       "step": "04",
-      "title": "Delivery",
-      "description": "Testing, deployment and ongoing support for your success."
+      "title": "Progress",
+      "description": "Regular feedback, confidence building, and travel preparation when needed."
     }
   },
   "projects": {
@@ -113,35 +113,35 @@
     ]
   },
   "about": {
-    "title": "About Bitloom company",
-    "subtitle": "Founded with a vision to deliver exceptional software solutions that drive business growth",
+    "title": "About",
+    "subtitle": "Online Spanish lessons with a practical, supportive approach",
     "ourStory": {
-      "title": "Our Story",
-      "description1": "Bitloom was founded by Miroslav with a clear mission: to bridge the gap between innovative technology and meaningful business outcomes. We believe that great software is not just about code – it's about understanding your business, your users, and your goals.",
-      "description2": "Our product-oriented approach ensures that every solution we build is designed to scale, perform, and deliver measurable value to your organization. We embrace growth-oriented values that guide everything we do."
+      "title": "My approach",
+      "description1": "I teach Spanish online with an individual approach — you learn at your pace, with clear explanations and plenty of practice.",
+      "description2": "You’ll get materials and worksheets, practical topics, and preparation for real-life situations (including travel)."
     },
     "coreValues": {
-      "title": "Our Core Values",
+      "title": "What you can expect",
       "transparentCommunication": {
-        "title": "Transparent Communication",
-        "description": "Clear, honest dialogue at every step"
+        "title": "Individual approach",
+        "description": "Lessons adapted to your goals and level"
       },
       "remoteFirstCooperation": {
-        "title": "Remote-First Cooperation",
-        "description": "Seamless collaboration across borders"
+        "title": "Comfort of home",
+        "description": "Online lessons from anywhere"
       },
       "openMindedness": {
-        "title": "Open-Mindedness",
-        "description": "Embracing new ideas and approaches"
+        "title": "Practical topics",
+        "description": "Useful Spanish for everyday life and travel"
       }
     },
     "founder": {
-      "title": "Meet Our Founder",
-      "name": "Miroslav Pillár - Founder & Digital Craftsman",
-      "location": "Based in Kosice, Slovakia",
-      "description1": "As a self-taught professional developer with 6 years of hands-on experience, Miroslav brings a unique perspective to software development. His journey demonstrates the power of dedication, continuous learning, and practical problem-solving in mastering modern technologies.",
-      "description2": "Throughout his career, Miroslav has focused on projects within healthcare and financial sectors - industries where precision, security, and reliability aren't just nice-to-have features—they're absolutely essential. This experience has shaped his approach to building software that businesses can truly depend on.",
-      "description3": "This specialized knowledge, combined with expertise in full-stack development and modern technologies, ensures that every Bitloom project benefits from both technical excellence and real-world business understanding."
+      "title": "Your teacher",
+      "name": "Katarína Pillárová",
+      "location": "Online lessons",
+      "description1": "I focus on building confidence — you’ll speak from the start, with guidance that feels calm and clear.",
+      "description2": "Lessons are practical and tailored: useful vocabulary, real-life dialogues, and topics that match your interests.",
+      "description3": "You’ll get materials and worksheets, and we can prepare for specific situations like travel or everyday communication."
     },
     "techStack": {
       "title": "Our Technical Expertise",
@@ -158,7 +158,7 @@
       }
     },
     "whyChoose": {
-      "title": "Why Choose Bitloom?",
+      "title": "Why Choose Hola Espanol?",
       "productMindset": {
         "title": "Product Mindset",
         "description": "We think like product owners, ensuring every feature adds real value to your business."
@@ -172,7 +172,7 @@
         "description": "We are invested in your success and provide ongoing support as you scale."
       }
     },
-    "cta": "Start Your Project"
+    "cta": "Book a Lesson"
   },
   "references": {
     "title": "Client Reviews & References",
@@ -204,20 +204,20 @@
     }
   },
   "contact": {
-    "title": "Start Your Project",
-    "subtitle": "Ready to transform your ideas into powerful digital solutions? Let's discuss it.",
+    "title": "Contact",
+    "subtitle": "Tell me your level and goals — we’ll set up your first online lesson.",
     "info": {
-      "title": "Let's Start Building Together",
-      "description": "Got a bold vision? Or the time has come to upgrade how you show up online? Bitloom is here to help turn your ideas into elegant, scalable solutions. Let's work together to build something amazing."
+      "title": "Let’s start learning",
+      "description": "Lessons are online from the comfort of your home. I provide materials and worksheets, focus on practical topics, and can help you prepare for travel."
     },
     "methods": {
       "email": {
         "title": "Email",
-        "value": "info@bitloom.sk"
+        "value": "katka.plackova3@gmail.com"
       },
       "location": {
         "title": "Location",
-        "value": "Based in Kosice, Slovakia"
+        "value": "Online"
       },
       "responseTime": {
         "title": "Response Time",
@@ -225,29 +225,29 @@
       }
     },
     "social": {
-      "title": "Connect With Bitloom Founder"
+      "title": "Connect"
     },
     "form": {
-      "title": "Contact Us",
+      "title": "Send a message",
       "yourName": "Your Name",
       "email": "Email",
-      "company": "Company",
+      "company": "Level (optional)",
       "textMessage": "Message text",
       "required": "*",
       "placeholders": {
         "name": "Your full name",
-        "email": "your.email@company.com",
-        "company": "Your company",
-        "message": "Describe your request, technical issue or project details"
+        "email": "your.email@example.com",
+        "company": "Beginner / Intermediate",
+        "message": "Tell me what you want to practice (and your availability)"
       },
       "sendMessage": "Send Message",
       "sending": "Sending...",
-      "success": "Thank you for your message! We will get back to you within 24 hours.",
-      "error": "Sorry, there was an error sending your inquiry. Please try again or contact us directly at info@bitloom.sk."
+      "success": "Thank you for your message! I will get back to you within 24 hours.",
+      "error": "Sorry, there was an error sending your message. Please try again or contact me directly at katka.plackova3@gmail.com."
     }
   },
   "footer": {
-    "description": "Product-oriented software engineering company specializing in web development, mobile development, and technical consulting. Based in Kosice, Slovakia, supporting clients globally.",
+    "description": "Hola Espanol is a personal online Spanish portfolio by Katarína Pillárová. Individual lessons from the comfort of your home, with materials, worksheets, practical topics, and travel preparation.",
     "quickLinks": {
       "title": "Quick Links",
       "services": "Services",
@@ -260,21 +260,20 @@
       "title": "Contact",
       "email": "Email:",
       "location": "Location:",
-      "locationValue": "Kosice, Slovakia"
+      "locationValue": "Online"
     },
-    "copyright": "© {year} Bitloom s.r.o. All rights reserved."
+    "copyright": "© {year} Hola Espanol. All rights reserved."
   },
   "metadata": {
-    "title": "Bitloom - Crafting Digital Solutions",
-    "description": "Product-oriented software engineering company specializing in web development, mobile development, and technical consulting. Based in Kosice, Slovakia, supporting clients globally. Founded by Miroslav Pillár.",
+    "title": "Hola Espanol — Online Spanish lessons",
+    "description": "Personal online Spanish lessons by Katarína Pillárová. Beginners and intermediate, individual or couple lessons, practical topics, materials and worksheets, and travel preparation.",
     "keywords": [
-      "web development",
-      "frontend development",
-      "full-stack development",
-      "technical consulting",
-      "React.js",
-      "TypeScript",
-      "React Native"
+      "online Spanish lessons",
+      "Spanish for beginners",
+      "Spanish for intermediate",
+      "individual Spanish lessons",
+      "Spanish for couples",
+      "travel Spanish"
     ]
   },
   "privacy": {
@@ -286,8 +285,8 @@
       "introduction": {
         "title": "Introduction",
         "content": {
-          "paragraph1": "Welcome to Bitloom s.r.o. (\"we,\" \"our,\" or \"us\"). We are a Software Engineering company based in Košice, Slovakia, specializing in web development, mobile development, and technical consulting. We are committed to protecting your personal information and your right to privacy.",
-          "paragraph2": "This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website bitloom.sk and blog.bitloom.sk, use our services, or contact us for business inquiries."
+          "paragraph1": "Welcome to Hola Espanol (\"we,\" \"our,\" or \"us\"). This is a personal website offering online Spanish lessons by Katarína Pillárová. We are committed to protecting your personal information and your right to privacy.",
+          "paragraph2": "This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit this website or contact us regarding lessons."
         }
       },
       "informationCollection": {
@@ -385,7 +384,7 @@
           "Right to Object: Object to processing based on legitimate interests",
           "Right to Withdraw Consent: Withdraw consent for marketing communications"
         ],
-        "contact": "To exercise these rights, contact us at info@bitloom.sk. We will respond within 30 days of receiving your request."
+        "contact": "To exercise these rights, contact us at katka.plackova3@gmail.com. We will respond within 30 days of receiving your request."
       },
       "cookieManagement": {
         "title": "Cookie Management and Consent",
@@ -443,22 +442,21 @@
         "intro": "If you have questions about this Privacy Policy or our data practices, please contact us:",
         "legal": {
           "title": "Legal Information",
-          "company": "Bitloom s.r.o.",
+          "company": "Katarína Pillárová",
           "businessId": "Business ID: 56397631",
           "taxId": "Tax ID: 2122301907",
           "vatId": "VAT ID: SK2122301907"
         },
         "details": {
           "title": "Contact Details",
-          "email": "Email: info@bitloom.sk",
+          "email": "Email: katka.plackova3@gmail.com",
           "location": "Location: Košice, Slovakia",
-          "website": "Website: bitloom.sk"
+          "website": "Website"
         },
         "gdprNote": "For GDPR-related requests or data protection concerns, please use the subject line \"Privacy Request\" in your email to ensure prompt handling."
       },
       "compliance": {
-        "statement": "This Privacy Policy is designed to comply with the EU General Data Protection Regulation (GDPR), Slovak data protection laws, and international privacy best practices. We are committed to transparent communication, remote-first cooperation, and open-mindedness in all our data practices.",
-        "registration": "Company Registration: Bitloom s.r.o. is a limited liability company registered in Slovakia with Business ID 56397631, Tax ID 2122301907, and VAT ID SK2122301907."
+        "statement": "This Privacy Policy is designed to comply with the EU General Data Protection Regulation (GDPR), Slovak data protection laws, and international privacy best practices."
       }
     }
   },

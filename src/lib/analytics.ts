@@ -3,7 +3,7 @@ declare global {
     gtag: (
       command: "config" | "event" | "js" | "consent",
       targetId: string | Date,
-      config?: Record<string, string | number | boolean>
+      config?: Record<string, string | number | boolean>,
     ) => void;
   }
 }
@@ -30,7 +30,7 @@ export const event = (
     event_category?: string;
     event_label?: string;
     value?: number;
-  } = {}
+  } = {},
 ) => {
   if (typeof window !== "undefined" && typeof window.gtag !== "undefined") {
     const eventConfig: Record<string, string | number | boolean> = {};
@@ -43,7 +43,7 @@ export const event = (
   }
 };
 
-// Business-specific event tracking for Bitloom
+// Business-specific event tracking
 
 export const trackBusinessInquiry = (formData: {
   company?: string;
@@ -88,7 +88,7 @@ export const trackExternalLink = (url: string, linkText?: string) => {
 export const trackBlogClick = () => {
   event("blog_click", {
     event_category: "navigation",
-    event_label: "blog.bitloom.sk",
+    event_label: "blog",
   });
 };
 

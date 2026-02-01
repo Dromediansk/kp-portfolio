@@ -128,7 +128,7 @@ const ServicesSection = () => {
               {t("cta.contactUs")}
             </ButtonLink>
             <ButtonLink
-              href="/projects"
+              href="/about"
               variant="secondary"
               size="lg"
               className="transform hover:scale-105 hover:shadow-lg transition-all duration-300"

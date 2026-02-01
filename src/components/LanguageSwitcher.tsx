@@ -9,15 +9,23 @@ const LanguageSwitcher = () => {
   const pathname = usePathname();
   const locale = useLocale();
 
+  // UI-only: hide English from the language picker, but keep the underlying
+  // locale-routing implementation intact for future use.
+  const visibleLocales = routing.locales.filter((loc) => loc !== "en");
+  const shouldRender =
+    visibleLocales.length > 1 || !visibleLocales.includes(locale);
+
   const switchLanguage = (newLocale: string) => {
     // Use router.replace to update URL without adding to browser history
     // The next-intl router will handle locale switching properly
     router.replace(pathname, { locale: newLocale });
   };
 
+  if (!shouldRender) return null;
+
   return (
     <div className="flex items-center space-x-1 bg-gray-100 dark:bg-gray-800 rounded-lg p-1">
-      {routing.locales.map((loc) => (
+      {visibleLocales.map((loc) => (
         <button
           key={loc}
           onClick={() => switchLanguage(loc)}

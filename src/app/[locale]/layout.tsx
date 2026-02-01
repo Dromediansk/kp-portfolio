@@ -31,15 +31,15 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     keywords,
-    authors: [{ name: "Miroslav Pillár" }],
-    creator: "Miroslav Pillár",
+    authors: [{ name: "Katarína Pillárová" }],
+    creator: "Katarína Pillárová",
     openGraph: {
       type: "website",
       locale: locale === "sk" ? "sk_SK" : "en_US",
       url: siteConfig.url,
       title: t("title"),
       description: t("description"),
-      siteName: "bitloom.sk",
+      siteName: "Hola Espanol",
       images: [
         {
           url: siteConfig.ogImage,

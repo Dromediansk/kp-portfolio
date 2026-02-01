@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { ButtonLink, SectionTitle } from "@/components";
 import { useIntersectionObserver } from "@/lib/hooks";
-import { ReasonContainer, TechStack } from "@/components/about";
 import { useTranslations } from "next-intl";
 
 const AboutSection = () => {
@@ -90,10 +89,10 @@ const AboutSection = () => {
                   : "opacity-0 translate-x-8"
               }`}
             >
-              <div className="w-80 h-80 mx-auto bg-gradient-to-br from-blue-400 to-purple-500 rounded-3xl flex items-center justify-center relative overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-500 shadow-2xl">
-                <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="w-80 h-80 mx-auto bg-linear-to-br from-blue-400 to-purple-500 rounded-3xl flex items-center justify-center relative overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-500 shadow-2xl">
+                <div className="absolute inset-0 bg-linear-to-r from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 <div className="text-white text-7xl font-bold z-10 group-hover:animate-pulse">
-                  B
+                  H
                 </div>
                 <div className="absolute top-6 left-10 w-3 h-3 bg-white/30 rounded-full animate-float"></div>
                 <div
@@ -108,7 +107,7 @@ const AboutSection = () => {
             </div>
           </div>
 
-          {/* Founder Section */}
+          {/* Teacher Section */}
           <div className="bg-gray-50 dark:bg-gray-700 rounded-3xl p-8 md:p-12 mb-20">
             <div className="grid lg:grid-cols-3 gap-8 items-center">
               <div
@@ -147,7 +146,7 @@ const AboutSection = () => {
                 <div className="w-48 h-48 rounded-full overflow-hidden shadow-xl ring-4 ring-primary-200 dark:ring-primary-800">
                   <Image
                     src="/images/about/avatar.png"
-                    alt="Miroslav - Founder of Bitloom"
+                    alt="Katarína Pillárová"
                     width={192}
                     height={192}
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
@@ -157,12 +156,6 @@ const AboutSection = () => {
               </div>
             </div>
           </div>
-
-          {/* Technical Expertise */}
-          <TechStack isVisible={hasIntersected} />
-
-          {/* Why Choose Bitloom */}
-          <ReasonContainer />
 
           {/* CTA */}
           <div

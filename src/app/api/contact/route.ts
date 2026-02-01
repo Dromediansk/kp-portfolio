@@ -9,10 +9,11 @@ interface ContactFormData {
 }
 
 const TOKEN = process.env.MAILTRAP_API_TOKEN || "";
-const SENDER_EMAIL = "portfolio@bitloom.sk";
-const RECIPIENT_EMAIL = "info@bitloom.sk";
+const SENDER_EMAIL =
+  process.env.CONTACT_SENDER_EMAIL || "noreply@holaespanol.local";
+const RECIPIENT_EMAIL = "katka.plackova3@gmail.com";
 
-// Generate professional HTML email template with Bitloom brand colors
+// Generate professional HTML email template
 const generateEmailTemplate = (data: ContactFormData): string => {
   return `
     <!DOCTYPE html>
@@ -20,7 +21,7 @@ const generateEmailTemplate = (data: ContactFormData): string => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>You Have a New Message from Bitloom</title>
+      <title>You Have a New Message from Hola Espanol</title>
       <style>
         body { 
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -74,7 +75,7 @@ const generateEmailTemplate = (data: ContactFormData): string => {
     <body>
       <div class="container">
         <div class="header">
-          <h1>🚀 New Message</h1>
+          <h1>New Message</h1>
         </div>
         
         <div class="content">
@@ -104,13 +105,13 @@ const generateEmailTemplate = (data: ContactFormData): string => {
             <div class="field-label">Message Text</div>
             <div class="field-value">${data.message.replace(
               /\n/g,
-              "<br>"
+              "<br>",
             )}</div>
           </div>
         </div>
         
         <div class="footer">
-          <p>This message was submitted through <strong>bitloom.sk</strong></p>
+          <p>This message was submitted through <strong>Hola Espanol</strong></p>
           <p>Reply directly to this email to respond to the client.</p>
         </div>
       </div>
@@ -127,7 +128,7 @@ export async function POST(request: NextRequest) {
     if (!body.name || !body.email || !body.message) {
       return NextResponse.json(
         { error: "Missing required fields" },
-        { status: 400 }
+        { status: 400 },
       );
     }
 
@@ -137,8 +138,8 @@ export async function POST(request: NextRequest) {
     const client = new MailtrapClient({ token: TOKEN });
 
     const newMessage = {
-      from: { name: "Bitloom Contact Form", email: SENDER_EMAIL },
-      to: [{ email: RECIPIENT_EMAIL, name: "Bitloom" }],
+      from: { name: "Hola Espanol Contact Form", email: SENDER_EMAIL },
+      to: [{ email: RECIPIENT_EMAIL, name: "Katarína" }],
       subject: `New Message from ${name}${company ? ` (${company})` : ""}`,
       html: generateEmailTemplate(body),
     };
@@ -156,7 +157,7 @@ export async function POST(request: NextRequest) {
     console.error("Email sending failed:", error);
     return NextResponse.json(
       { error: "Failed to send message. Please try again later." },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
