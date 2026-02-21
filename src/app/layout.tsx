@@ -1,6 +1,5 @@
 import { Quicksand } from "next/font/google";
 import { ThemeProvider } from "@/providers/ThemeProvider";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import Head from "next/head";
 
 import "./globals.css";
@@ -29,7 +28,7 @@ export default function RootLayout({
             </div>
           </main>
         </ThemeProvider>
-        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!} />
+        {/* <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!} /> */}
       </body>
     </html>
   );
