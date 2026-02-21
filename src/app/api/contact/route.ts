@@ -5,6 +5,8 @@ interface ContactFormData {
   name: string;
   email: string;
   company?: string;
+  lessonDuration: string;
+  frequency: string;
   message: string;
 }
 
@@ -93,14 +95,23 @@ const generateEmailTemplate = (data: ContactFormData): string => {
             data.company
               ? `
             <div class="field">
-              <div class="field-label">Company</div>
+              <div class="field-label">Level</div>
               <div class="field-value">${data.company}</div>
             </div>
           `
               : ""
           }
 
-          
+          <div class="field">
+            <div class="field-label">Lesson Duration</div>
+            <div class="field-value">${data.lessonDuration} minutes</div>
+          </div>
+
+          <div class="field">
+            <div class="field-label">Frequency</div>
+            <div class="field-value">${data.frequency}x per week</div>
+          </div>
+
           <div class="field">
             <div class="field-label">Message Text</div>
             <div class="field-value">${data.message.replace(
@@ -125,7 +136,7 @@ export async function POST(request: NextRequest) {
     const body: ContactFormData = await request.json();
 
     // Validate required fields
-    if (!body.name || !body.email || !body.message) {
+    if (!body.name || !body.email || !body.lessonDuration || !body.frequency || !body.message) {
       return NextResponse.json(
         { error: "Missing required fields" },
         { status: 400 },

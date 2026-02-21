@@ -4,11 +4,14 @@ import { FormEvent, useState } from "react";
 import { Button } from "@/components";
 import { useIntersectionObserver } from "@/lib/hooks";
 import { useTranslations } from "next-intl";
+import { ChevronDown } from "lucide-react";
 
 interface ContactFormData {
   name: string;
   email: string;
   company: string;
+  lessonDuration: string;
+  frequency: string;
   message: string;
 }
 
@@ -20,6 +23,8 @@ const ContactForm = () => {
     name: "",
     email: "",
     company: "",
+    lessonDuration: "",
+    frequency: "",
     message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -44,12 +49,18 @@ const ContactForm = () => {
       name: "",
       email: "",
       company: "",
+      lessonDuration: "",
+      frequency: "",
       message: "",
     });
   };
 
   const isFormValid =
-    formData.name.trim() && formData.email.trim() && formData.message.trim();
+    formData.name.trim() &&
+    formData.email.trim() &&
+    formData.lessonDuration &&
+    formData.frequency &&
+    formData.message.trim();
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -155,6 +166,65 @@ const ContactForm = () => {
             onChange={handleChange}
             className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
           />
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <label
+              htmlFor="lessonDuration"
+              className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+            >
+              {t("lessonDuration")} {t("required")}
+            </label>
+            <div className="relative">
+              <select
+                id="lessonDuration"
+                name="lessonDuration"
+                value={formData.lessonDuration}
+                onChange={handleChange}
+                required
+                className="w-full pl-4 pr-10 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white appearance-none"
+              >
+                <option value="" disabled>
+                  {t("placeholders.lessonDuration")}
+                </option>
+                <option value="30">{t("durationOptions.30min")}</option>
+                <option value="45">{t("durationOptions.45min")}</option>
+                <option value="60">{t("durationOptions.60min")}</option>
+                <option value="90">{t("durationOptions.90min")}</option>
+              </select>
+              <ChevronDown className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 size-5 text-gray-500 dark:text-gray-400" />
+            </div>
+          </div>
+
+          <div>
+            <label
+              htmlFor="frequency"
+              className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+            >
+              {t("frequency")} {t("required")}
+            </label>
+            <div className="relative">
+              <select
+                id="frequency"
+                name="frequency"
+                value={formData.frequency}
+                onChange={handleChange}
+                required
+                className="w-full pl-4 pr-10 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white appearance-none"
+              >
+                <option value="" disabled>
+                  {t("placeholders.frequency")}
+                </option>
+                <option value="1">{t("frequencyOptions.1x")}</option>
+                <option value="2">{t("frequencyOptions.2x")}</option>
+                <option value="3">{t("frequencyOptions.3x")}</option>
+                <option value="4">{t("frequencyOptions.4x")}</option>
+                <option value="5">{t("frequencyOptions.5x")}</option>
+              </select>
+              <ChevronDown className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 size-5 text-gray-500 dark:text-gray-400" />
+            </div>
+          </div>
         </div>
 
         <div>

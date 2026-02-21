@@ -234,13 +234,30 @@
       "yourName": "Your Name",
       "email": "Email",
       "company": "Level (optional)",
+      "lessonDuration": "Lesson duration",
+      "frequency": "Lessons per week",
       "textMessage": "Message text",
       "required": "*",
       "placeholders": {
         "name": "Your full name",
         "email": "your.email@example.com",
         "company": "Beginner / Intermediate",
+        "lessonDuration": "Select duration",
+        "frequency": "Select frequency",
         "message": "Tell me what you want to practice (and your availability)"
+      },
+      "durationOptions": {
+        "30min": "30 minutes",
+        "45min": "45 minutes",
+        "60min": "60 minutes",
+        "90min": "90 minutes"
+      },
+      "frequencyOptions": {
+        "1x": "1x per week",
+        "2x": "2x per week",
+        "3x": "3x per week",
+        "4x": "4x per week",
+        "5x": "5x per week"
       },
       "sendMessage": "Send Message",
       "sending": "Sending...",

@@ -189,13 +189,30 @@
       "yourName": "Vaše meno",
       "email": "E-mail",
       "company": "Úroveň (voliteľné)",
+      "lessonDuration": "Dĺžka hodiny",
+      "frequency": "Počet hodín za týždeň",
       "textMessage": "Text správy",
       "required": "*",
       "placeholders": {
         "name": "Vaše celé meno",
         "email": "vas.email@example.com",
         "company": "Začiatočník / Mierne pokročilý",
+        "lessonDuration": "Vyberte dĺžku",
+        "frequency": "Vyberte frekvenciu",
         "message": "Napíšte, čo chcete trénovať (a kedy vám vyhovuje)"
+      },
+      "durationOptions": {
+        "30min": "30 minút",
+        "45min": "45 minút",
+        "60min": "60 minút",
+        "90min": "90 minút"
+      },
+      "frequencyOptions": {
+        "1x": "1x za týždeň",
+        "2x": "2x za týždeň",
+        "3x": "3x za týždeň",
+        "4x": "4x za týždeň",
+        "5x": "5x za týždeň"
       },
       "sendMessage": "Odoslať správu",
       "sending": "Odosiela sa...",
